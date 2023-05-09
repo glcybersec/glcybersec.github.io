@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust this value to center vertically within the viewport */
+  /* height: 100vh; Adjust this value to center vertically within the viewport */
   text-align: center; /* Optional, to center text horizontally */
  }
 :root {
@@ -1512,7 +1512,7 @@ pre code {
 
 .table-hover .table-info:hover > td,
 .table-hover .table-info:hover > th {
-  background-color: #a6d6ff;
+  background-color: #2185dd;
 }
 
 .table-warning,
@@ -4318,8 +4318,8 @@ input[type="button"].btn-block {
 }
 
 .card-body {
-  flex: 1 1 auto;
-  padding: 1.25rem;
+  /* flex: 1 1 auto; */
+  /* padding: 1.25rem; */
 }
 
 .card-title {
@@ -9372,8 +9372,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6e6e6e !important;
+ 
 }
-
+/* .hidden-text{
+  display:none;
+} */
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -9774,6 +9777,10 @@ footer a:hover {
   font-size: 30px;
   text-align: center;
   color: #6e6e6e;
+}
+
+.owl-theme {
+  font-size: large;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -10251,7 +10258,7 @@ footer a:hover {
 }
 
 .card .card-body {
-  padding: 43px 36px;
+  /* padding: 43px 36px; */
 }
 
 .card .card-body .card-title {
@@ -10295,4 +10302,9 @@ footer a:hover {
   border: none;
   justify-content: flex-start;
   padding: 5px 0px 20px 39px;
+}
+
+
+.card-body .card .owl-theme{
+  margin-top: 50px;
 }
